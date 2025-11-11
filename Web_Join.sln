@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_Join", "Web_Join.csproj", "{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53EFC962-32CD-41F3-9182-704F1022B4FF}
+	EndGlobalSection
+EndGlobal
