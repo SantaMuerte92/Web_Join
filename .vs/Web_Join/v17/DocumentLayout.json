@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\FIA\\Projekte\\Web_Join\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\models\\bigticketsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:models\\bigticketsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\models\\viewmodels\\indexviewmodel.cs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,24 +35,8 @@
       "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:views\\home\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\models\\bigticketsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:models\\bigticketsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\models\\viewmodels\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,20 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-11T14:10:38.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "BigTicketSystemContext.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Models\\BigTicketSystemContext.cs",
               "RelativeDocumentMoniker": "Models\\BigTicketSystemContext.cs",
@@ -104,8 +104,7 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:33:00.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:33:00.423Z"
             },
             {
               "$type": "Document",
@@ -117,12 +116,11 @@
               "RelativeToolTip": "Models\\ViewModels\\AdminViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:29:45.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:29:45.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IndexViewModel.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Models\\ViewModels\\IndexViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\IndexViewModel.cs",
@@ -130,38 +128,37 @@
               "RelativeToolTip": "Models\\ViewModels\\IndexViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:29:00.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:29:00.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAADwv3EAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T13:24:03.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Admin.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Admin.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Admin.cshtml",
               "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Admin.cshtml",
               "RelativeToolTip": "Views\\Home\\Admin.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwC4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwB4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-11T13:00:15.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Admin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Admin.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Home\\Admin.cshtml.cs",
@@ -169,25 +166,24 @@
               "RelativeToolTip": "Views\\Home\\Admin.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:58:28.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T12:58:28.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAADwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-11T12:50:28.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml.cs",
@@ -195,12 +191,11 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA8wAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:49:52.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T12:49:52.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -208,8 +203,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:49:22.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T12:49:22.351Z"
             }
           ]
         }

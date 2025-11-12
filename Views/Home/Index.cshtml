@@ -1,232 +1,67 @@
-
 @model Web_Join.Models.ViewModels.IndexViewModel
 @{
-    ViewData["Title"] = "Ticket-Übersicht";
+    ViewData["Title"] = "Start";
 }
 
 <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      integrity="sha384-whatever" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-whatever" crossorigin="anonymous"></script>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<style>
-    body { background:#f5f7fa; }
-    .ticket-card { transition:.2s; }
-    .ticket-card:hover { box-shadow:0 4px 12px rgba(0,0,0,.15); transform:translateY(-2px); }
-    .status-pill { font-size:.75rem; padding:.25rem .6rem; border-radius:1rem; }
-</style>
-
-<div class="container py-4">
-
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 class="fw-semibold">Offene Tickets</h2>
-        <div class="d-flex gap-2">
-            @if (!Model.IsAdmin)
-            {
-                <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#adminLoginModal">
-                    Admin
-                </button>
-            }
-            else
-            {
-                <form method="post" asp-page-handler="AdminLogout">
-                    <button class="btn btn-outline-danger">Logout</button>
-                </form>
-            }
-            @if (Model.IsAdmin)
-            {
-                <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#newTicketForm">Neues Ticket</button>
-                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#createEntityModal">Neu</button>
-            }
-        </div>
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold mb-2">Big Ticket System</h1>
+        <p class="text-muted">Schneller Einstieg: Ticket erfassen oder zur Admin-Übersicht wechseln.</p>
     </div>
 
-    <div class="collapse mb-4" id="newTicketForm">
-        <div class="card card-body">
-            <h5 class="mb-3">Neues Ticket erstellen</h5>
-            <form method="post" asp-page-handler="CreateTicket">
-                <div class="row g-3">
-             @*        <div class="col-md-3">
-                        <label class="form-label">UserID</label>
-                        <input asp-for="NewTicketUserID" class="form-control" type="number" min="1" required />
-                    </div>
-                    <div class="col-md-3">
-                        <label class="form-label">StatusID</label>
-                        <input asp-for="NewTicketStatusID" class="form-control" type="number" min="1" required />
-                    </div>
-                    <div class="col-md-3">
-                        <label class="form-label">PriorityID</label>
-                        <input asp-for="NewTicketPriorityID" class="form-control" type="number" min="1" required />
-                    </div> *@
-                    <div class="col-md-3">
-                        <label class="form-label">CategoryID</label>
-                        <input asp-for="NewTicketCategoryID" class="form-control" type="number" min="1" required />
-                    </div>
-                    <div class="col-12">
-                        <label class="form-label">Titel</label>
-                        <input asp-for="NewTicketTitle" class="form-control" maxlength="200" required />
-                    </div>
-                    <div class="col-12">
-                        <label class="form-label">Beschreibung</label>
-                        <textarea asp-for="NewTicketDescription" class="form-control" rows="3"></textarea>
-                    </div>
-                    <div class="col-12 d-flex gap-2">
-                        <button type="submit" class="btn btn-primary">Speichern</button>
-                        <button type="button" class="btn btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#newTicketForm">Abbruch</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+    <div class="d-flex justify-content-center gap-3 mb-4">
+        <a asp-action="Admin" asp-controller="Home" class="btn btn-outline-dark px-4">Admin</a>
+        <button class="btn btn-primary px-4" data-bs-toggle="collapse" data-bs-target="#newTicketForm">Neues Ticket</button>
     </div>
 
-    <div class="row g-3">
-        @foreach (var t in Model.OffeneTickets)
-        {
-            <div class="col-md-6 col-lg-4">
-                <div class="card ticket-card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h6 class="card-title mb-0">@t.Title</h6>
-                            <span class="status-pill bg-info text-white">@t.Status?.Title</span>
+    @if (TempData["Message"] is string msg)
+    {
+        <div class="alert alert-success text-center py-2">@msg</div>
+    }
+
+    <div id="newTicketForm" class="collapse">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="mb-3">Neues Ticket erstellen</h5>
+                <form method="post" asp-action="CreateTicket" asp-controller="Home">
+                    @Html.AntiForgeryToken()
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label class="form-label">Kategorie</label>
+                            <select asp-for="NewTicketCategoryID" class="form-select" required>
+                                <option value="">-- wählen --</option>
+                                @foreach (var c in Model.Categories)
+                                {
+                                    <option value="@c.Id">@c.Name</option>
+                                }
+                            </select>
+                            <span class="text-danger small" asp-validation-for="NewTicketCategoryID"></span>
                         </div>
-                        <p class="text-muted small mb-2">
-                            Nutzer: @t.User?.Name |
-                            Prio: @t.Priority?.Title |
-                            Kategorie: @t.Category?.Name
-                        </p>
-                        <p class="flex-grow-1 small">@t.Description</p>
-                        <div class="mt-2 small text-secondary">
-                            Erzeugt: @t.Createdate.ToString("dd.MM.yyyy HH:mm")
+                        <div class="col-md-8">
+                            <label class="form-label">Titel</label>
+                            <input asp-for="NewTicketTitle" class="form-control" maxlength="200" required />
+                            <span class="text-danger small" asp-validation-for="NewTicketTitle"></span>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Beschreibung</label>
+                            <textarea asp-for="NewTicketDescription" class="form-control" rows="4" required></textarea>
+                            <span class="text-danger small" asp-validation-for="NewTicketDescription"></span>
+                        </div>
+                        <div class="col-12 d-flex gap-2 mt-2">
+                            <button type="submit" class="btn btn-primary">Speichern</button>
+                            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#newTicketForm">Abbruch</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        }
-        @if (!Model.OffeneTickets.Any())
-        {
-            <div class="col-12">
-                <div class="alert alert-secondary">Keine offenen Tickets.</div>
-            </div>
-        }
-    </div>
-</div>
-
-<!-- Admin Login Modal -->
-<div class="modal fade" id="adminLoginModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <form method="post" asp-page-handler="AdminLogin">
-                <div class="modal-header">
-                    <h5 class="modal-title">Admin Login</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
-                </div>
-                <div class="modal-body">
-                    @if (Model.LoginError != null)
-                    {
-                        <div class="alert alert-danger py-1 mb-2">@Model.LoginError</div>
-                    }
-                    <div class="mb-3">
-                        <label class="form-label">Benutzername</label>
-                        <input asp-for="AdminUser" class="form-control" required />
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Passwort</label>
-                        <input asp-for="AdminPassword" type="password" class="form-control" required />
-                    </div>
-                    <small class="text-muted">Demo-Credentials: Admin / 0000</small>
-                </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary">Login</button>
-                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Abbruch</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-
-<!-- Neu (Stammdaten) Modal -->
-<div class="modal fade" id="createEntityModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Neuen Eintrag anlegen</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
-            </div>
-            <div class="modal-body">
-                <div class="mb-3">
-                    <label class="form-label">Typ auswählen</label>
-                    <select id="entitySelect" class="form-select" onchange="showEntityForm()">
-                        <option value="">-- Bitte wählen --</option>
-                        <option value="category">Kategorie</option>
-                        <option value="status">Status</option>
-                        <option value="priority">Priorität</option>
-                    </select>
-                </div>
-
-                <!-- Kategorie -->
-                <form id="form-category" class="d-none" method="post" asp-page-handler="CreateCategory">
-                    <h6>Kategorie</h6>
-                    <div class="mb-3">
-                        <label class="form-label">Name</label>
-                        <input asp-for="CreateCategoryName" class="form-control" maxlength="100" required />
-                    </div>
-                    <div class="d-flex gap-2">
-                        <button type="submit" class="btn btn-success">Anlegen</button>
-                        <button type="button" class="btn btn-outline-secondary" onclick="resetForms()">Abbruch</button>
-                    </div>
                 </form>
-
-                <!-- Status -->
-                <form id="form-status" class="d-none" method="post" asp-page-handler="CreateStatus">
-                    <h6>Status</h6>
-                    <div class="mb-3">
-                        <label class="form-label">Titel</label>
-                        <input asp-for="CreateStatusTitle" class="form-control" maxlength="100" required />
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Beschreibung</label>
-                        <textarea asp-for="CreateStatusDescription" class="form-control" maxlength="200" rows="3" required></textarea>
-                    </div>
-                    <div class="d-flex gap-2">
-                        <button type="submit" class="btn btn-success">Anlegen</button>
-                        <button type="button" class="btn btn-outline-secondary" onclick="resetForms()">Abbruch</button>
-                    </div>
-                </form>
-
-                <!-- Priorität -->
-                <form id="form-priority" class="d-none" method="post" asp-page-handler="CreatePriority">
-                    <h6>Priorität</h6>
-                    <div class="mb-3">
-                        <label class="form-label">Titel</label>
-                        <input asp-for="CreatePriorityTitle" class="form-control" maxlength="100" required />
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Beschreibung</label>
-                        <textarea asp-for="CreatePriorityDescription" class="form-control" maxlength="200" rows="3" required></textarea>
-                    </div>
-                    <div class="d-flex gap-2">
-                        <button type="submit" class="btn btn-success">Anlegen</button>
-                        <button type="button" class="btn btn-outline-secondary" onclick="resetForms()">Abbruch</button>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Schließen</button>
+                <div class="form-text mt-3">Kategorie wählen, Titel & Beschreibung ausfüllen.</div>
             </div>
         </div>
     </div>
 </div>
 
-<script>
-    function showEntityForm() {
-        const value = document.getElementById('entitySelect').value;
-        ['category','status','priority'].forEach(v => {
-            document.getElementById('form-' + v).classList.toggle('d-none', v !== value);
-        });
-    }
-    function resetForms() {
-        document.getElementById('entitySelect').value = '';
-        showEntityForm();
-    }
-</script>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />}
