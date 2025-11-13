@@ -1,4 +1,5 @@
 using Web_Join.Models;
+using Web_Join.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,18 @@ builder.Services.AddSession(o =>
     o.Cookie.HttpOnly = true;
     o.Cookie.IsEssential = true;
 });
+
+// Repository DI
+builder.Services.AddScoped<IAssignmentRepository, AssignmentRepository>();
+builder.Services.AddScoped<IAttachmentRepository, AttachmentRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<IHistoryRepository, HistoryRepository>();
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+builder.Services.AddScoped<IPriorityRepository, PriorityRepository>();
+builder.Services.AddScoped<IStatusRepository, StatusRepository>();
+builder.Services.AddScoped<ITicketRepository, TicketRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
