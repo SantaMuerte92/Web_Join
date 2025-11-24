@@ -3,72 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\FIA\\Projekte\\Web_Join\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\historyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\historyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FIA\\AppData\\Local\\Temp\\q1wzcclp..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\statusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\statusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\istatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\istatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\priorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\priorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\ipriorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\ipriorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\attachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\attachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\iattachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\iattachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\assignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\assignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\repositories\\iassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:repositories\\iassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BigTicketSystem/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,6 +47,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|c:\\users\\fia\\projekte\\web_join\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444B80B9-0A99-4DA5-B4FC-705D366FAFFC}|Web_Join.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\FIA\\AppData\\Local\\Temp\\q1wzcclp..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,233 +59,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StatusRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\StatusRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StatusRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\StatusRepository.cs*",
-              "RelativeToolTip": "Repositories\\StatusRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:47.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IStatusRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IStatusRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IStatusRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IStatusRepository.cs*",
-              "RelativeToolTip": "Repositories\\IStatusRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:45.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PriorityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\PriorityRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\PriorityRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\PriorityRepository.cs*",
-              "RelativeToolTip": "Repositories\\PriorityRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:41.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IPriorityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IPriorityRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IPriorityRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IPriorityRepository.cs*",
-              "RelativeToolTip": "Repositories\\IPriorityRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:39.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NotificationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\NotificationRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\NotificationRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\NotificationRepository.cs*",
-              "RelativeToolTip": "Repositories\\NotificationRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:35.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "INotificationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\INotificationRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\INotificationRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\INotificationRepository.cs*",
-              "RelativeToolTip": "Repositories\\INotificationRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:30.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:49:22.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\HistoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\HistoryRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\HistoryRepository.cs*",
-              "RelativeToolTip": "Repositories\\HistoryRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:26.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IHistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IHistoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IHistoryRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IHistoryRepository.cs*",
-              "RelativeToolTip": "Repositories\\IHistoryRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:23.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\CommentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CommentRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\CommentRepository.cs*",
-              "RelativeToolTip": "Repositories\\CommentRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:20.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\ICommentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICommentRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\ICommentRepository.cs*",
-              "RelativeToolTip": "Repositories\\ICommentRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:10.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\CategoryRepository.cs*",
-              "RelativeToolTip": "Repositories\\CategoryRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:06.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\ICategoryRepository.cs*",
-              "RelativeToolTip": "Repositories\\ICategoryRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:50:00.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AttachmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\AttachmentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AttachmentRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\AttachmentRepository.cs*",
-              "RelativeToolTip": "Repositories\\AttachmentRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:49:56.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAttachmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IAttachmentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IAttachmentRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IAttachmentRepository.cs*",
-              "RelativeToolTip": "Repositories\\IAttachmentRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:49:51.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AssignmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\AssignmentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AssignmentRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\AssignmentRepository.cs*",
-              "RelativeToolTip": "Repositories\\AssignmentRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:49:35.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IAssignmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IAssignmentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IAssignmentRepository.cs",
-              "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Repositories\\IAssignmentRepository.cs*",
-              "RelativeToolTip": "Repositories\\IAssignmentRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:49:20.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -359,7 +75,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 0,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\FIA\\AppData\\Local\\Temp\\q1wzcclp..sql",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\q1wzcclp..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-24T09:56:12.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Users [Daten]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BigTicketSystem/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Daten]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-24T09:55:22.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -371,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 6,
               "Title": "BigTicketSystemContext.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Models\\BigTicketSystemContext.cs",
               "RelativeDocumentMoniker": "Models\\BigTicketSystemContext.cs",
@@ -383,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 11,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -395,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 10,
               "Title": "AdminViewModel.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Models\\ViewModels\\AdminViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\AdminViewModel.cs",
@@ -407,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 7,
               "Title": "IndexViewModel.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Models\\ViewModels\\IndexViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\IndexViewModel.cs",
@@ -419,20 +156,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\FIA\\Projekte\\Web_Join\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwF4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T13:24:03.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
               "Title": "Admin.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Admin.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Admin.cshtml",
@@ -444,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 9,
               "Title": "Admin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Admin.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Home\\Admin.cshtml.cs",
@@ -456,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -468,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\Projekte\\Web_Join\\Views\\Home\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml.cs",
