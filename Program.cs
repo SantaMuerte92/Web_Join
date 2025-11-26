@@ -1,7 +1,11 @@
 using Web_Join.Models;
 using Web_Join.Repositories;
+using Web_Join.Securitiy;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.Configure<Web_Join.Models.SecurityOptions>(builder.Configuration.GetSection("Security"));
+builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<BigTicketSystemContext>();
@@ -45,5 +49,29 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+// OPTIONAL: einmaliges Seeding eines Admin-Users (nur temporär, danach entfernen)
+
+using (var scope = app.Services.CreateScope())
+{
+    var ctx = scope.ServiceProvider.GetRequiredService<BigTicketSystemContext>();
+    var hasher = scope.ServiceProvider.GetRequiredService<IPasswordHasher>();
+    if (!ctx.Users.Any(u => u.Name == "Admin"))
+    {
+        var (hash, salt) = hasher.HashPassword("0000");
+        ctx.Users.Add(new User
+        {
+            Name = "Admin",
+            Email = "admin@example.local",
+            Position = "Administrator",
+            PasswordHash = hash,
+            PasswordSalt = salt,
+            PasswordChangedAt = DateTime.UtcNow
+        });
+        ctx.SaveChanges();
+    }
+}
+
 
 app.Run();

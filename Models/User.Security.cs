@@ -2,7 +2,7 @@
 
 namespace Web_Join.Models
 {
-    public partical class User
+    public partial class User
     {
 		public byte[] PasswordHash { get; set; } = Array.Empty<byte>();
 		public byte[] PasswordSalt { get; set; } = Array.Empty<byte>();

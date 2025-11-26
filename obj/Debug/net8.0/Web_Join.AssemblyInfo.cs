@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Web_Join")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e117387b9f18c8f9ae252d5aaf097808460f5ceb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99dec9fed7c6c4510d90e27532a36a6a6a8ac40c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Web_Join")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Web_Join")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,14 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Web_Join.Models;
 using Web_Join.Models.ViewModels;
+using Web_Join.Securitiy;
 
 namespace Web_Join.Controllers;
 
 public class HomeController : Controller
 {
+    
     private readonly BigTicketSystemContext _ctx;
-    public HomeController(BigTicketSystemContext ctx) => _ctx = ctx;
+    private readonly IPasswordHasher _hasher;
+
+    public HomeController(BigTicketSystemContext ctx, IPasswordHasher hasher)
+    {
+        _ctx = ctx;
+        _hasher = hasher;
+    }
+
 
     // GET: /Home/Index
     public async Task<IActionResult> Index()
@@ -83,7 +93,8 @@ public class HomeController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> AdminLogin(AdminViewModel vm)
     {
-        if (vm.AdminUser == "Admin" && vm.AdminPassword == "0000")
+        var user = await _ctx.Users.FirstOrDefaultAsync(u => u.Name == vm.AdminUser);
+        if (user != null && _hasher.Verify(vm.AdminPassword, user.PasswordHash ?? Array.Empty<byte>(), user.PasswordSalt ?? Array.Empty<byte>()))
         {
             HttpContext.Session.SetString("IsAdmin", "true");
             return RedirectToAction(nameof(Admin));
